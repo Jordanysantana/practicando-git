@@ -1,3 +1,35 @@
-holo como estas
-bien y tu
-tranquilo
+Configuracion de git:
+
+$ git config --global user.name "Jordany Santana"
+
+$ git config --global user.email jordanysantanadejesus@gmail.com
+
+$ git config --global core.editor "code --wait"
+
+$ git config --global -e  (para ver nuestro archivo de configuracion global).
+
+$ git config --global core.autocrlf true  (en mac o linux poner input window tue).
+
+Algusnos Comandos:
+
+rm archivo.txt (Borrar archivo).
+git restore archivo.txt (Recuperar archivo).
+mv archivo.txt archivo2.txt (cambiarle el nombre a un archivo  carpeta)
+git status
+git add
+git commit -m "???"
+
+.gitignore (en vs code crear ese archivo para que git ignore
+ carpertas que no quieras subirla o indexarla).
+
+git log (se usa para revisar todos los cambios que hagas).
+git log --oneline (lo mismo pero mas resumido).
+git restore archivo.txt
+git restore --stage ( para desvolver archivos agregados). 
+
+git branch (para saber en que rama estas o cuantas ramas hay).
+git checkout -b ramab (CREar Rama).
+git checkout master o ramab (para cambiar de ramas).
+git merge ramab (para pasar los cambios a la rama principal)
+
+cat archivo.txt (se usa para mostrar el contenido del archivo).
